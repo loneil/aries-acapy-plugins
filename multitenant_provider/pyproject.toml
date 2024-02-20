@@ -29,6 +29,7 @@ pytest-ruff = "^0.1.1"
 mock= "~4.0"
 
 [tool.poetry.group.integration.dependencies]
+anoncreds= { version = "0.2.0.dev11", allow-prereleases = true }
 aries-askar = { version = "~0.3.0" }
 indy-credx = { version = "~1.0.0" }
 indy-vdr = { version = "~0.3.3" }
